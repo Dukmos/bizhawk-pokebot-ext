@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "bizhawk-pokebot-ext": {
+      "commandName": "Project"
+    },
+    "start BizHawk": {
+      "commandName": "Executable",
+      "executablePath": "$(BIZHAWK_HOME)EmuHawk.exe",
+      "commandLineArgs": "--open-ext-tool-dll=bizhawk-pokebot-ext",
+      "workingDirectory": "$(BIZHAWK_HOME)"
+    }
+  }
+}
